@@ -1,0 +1,99 @@
+* {
+    box-sizing: border-box;
+}
+
+.night body {
+    background-color: #272737;
+}
+
+.night .container {
+    display: flex;
+    position: absolute;
+    width: 723px;
+    height: 206px;
+    left: 222px;
+    top: 78px;
+
+    background: rgb(73, 70, 118);
+    background: linear-gradient(298deg, rgba(73, 70, 118, 1) 0%, rgba(47, 86, 118, 1) 100%);
+    border: 5px solid #B8C6EA;
+    box-sizing: border-box;
+    border-radius: 29px;
+
+    align-items: center;
+    justify-content: space-around;
+}
+
+.night .text {
+    /* Night */
+
+    width: 382.7px;
+    height: 80.87px;
+
+
+    font-family: Rubik Mono One;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 90px;
+    line-height: 111px;
+
+    color: #B8C6EA;
+
+    text-shadow: 6px 8px 4px #494676;
+}
+
+/* Checkbox */
+
+.night input[type="checkbox"]  {
+    cursor: pointer;
+    appearance: none;
+    width: 162px;
+    height: 63.29px;
+    padding: 0;
+
+    border: 4px solid #B8C6EA;
+    border-radius: 29px;
+    background: #272737;
+    box-shadow: 6px 8px 1px rgba(44, 87, 118, 0.58);
+}
+
+.night input[type=checkbox]:before  {
+    content: "";
+    position: absolute;
+    width: 98px;
+    height: 50.98px;
+    margin: 2px 0 0 53px;
+
+    background: linear-gradient(248.61deg, #494676 19.76%, #2F5676 73.01%);
+    border: 4px solid #B8C6EA;
+    box-sizing: border-box;
+    border-radius: 29px;
+
+}
+
+.night input:checked[type="checkbox"] {
+    cursor: pointer;
+    appearance: none;
+    width: 162px;
+    height: 63.29px;
+    padding: 0;
+
+    background: linear-gradient(180deg, #F890AA 0%, #9D99EF 100%), #2E2D4D;
+    border: 4px solid #494676;
+    box-sizing: border-box;
+    box-shadow: 6px 8px 1px #494676;
+    border-radius: 29px;
+}
+
+.night input:checked[type=checkbox]:before {
+    content: "";
+    position: absolute;
+    width: 98px;
+    height: 50.98px;
+    margin: 2px 0 0 3px;
+
+    background: linear-gradient(70.99deg, #F890AA 15.36%, #9D99EF 83.44%);
+    border: 4px solid #494676;
+    box-sizing: border-box;
+    border-radius: 29px;
+}
